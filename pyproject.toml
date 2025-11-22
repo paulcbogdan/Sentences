@@ -4,9 +4,9 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sentences"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
-    {name = "Your Name", email = "your.email@example.com"},
+    {name = "Paul Bogdan", email = "paulcbogdan@gmail.com"},
 ]
 description = "Text segmentation and tokenization utilities for LLMs"
 readme = "README.md"
@@ -23,6 +23,7 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Text Processing :: Linguistic",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]

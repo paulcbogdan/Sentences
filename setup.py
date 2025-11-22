@@ -7,10 +7,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="sentences",
-    version="0.1.0",
-    author="Your Name",
+    version="0.1.1",
+    author="Paul Bogdan",
     author_email="paulcbogdan@gmail.com",
-    description="Package for splitting LLM text into sentences (or paragraphs) and finding what token ranges each sentence corresponds to.",
+    description="Text segmentation and tokenization utilities for LLMs",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/paulcbogdan/sentences",

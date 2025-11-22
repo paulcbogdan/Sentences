@@ -1,5 +1,8 @@
 # Sentences
 
+[![PyPI version](https://img.shields.io/pypi/v/sentences.svg)](https://pypi.org/project/sentences/)
+[![arXiv](https://img.shields.io/badge/arXiv-2506.19143-b31b1b.svg)](https://arxiv.org/abs/2506.19143)
+
 Utilities for sentence-level text segmentation and tokenization tailored to LLM tokenizers.  
 
 This package is designed to support sentence-level (“Thought Anchor”) analyses like those in:
