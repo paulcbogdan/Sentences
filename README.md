@@ -4,14 +4,14 @@ Utilities for sentence-level text segmentation and tokenization tailored to LLM 
 
 This package is designed to support sentence-level (“Thought Anchor”) analyses like those in:
 
-> Bogdan, P. C.\*, Macar, U.\*, Nanda, N.°, & Conmy, A.° Thought anchors: Which llm reasoning steps matter?, 2025. https://arxiv.org/abs/2506.19143.
+> Bogdan, P. C.\*, Macar, U.\*, Nanda, N.°, & Conmy, A.° Thought anchors: Which LLM reasoning steps matter? 2025. https://arxiv.org/abs/2506.19143.
 
 ## Features
 
 - Splits a given text into sentences
 - Avoids common issues (e.g., "Dr. Fu" shouldn't be split into two sentences)
 - Respects standard LLM tokenization patterns (e.g., leading-space tokens)
-- Given a tokenizer, it will return the token ranges of your sentences' positions in the input text
+- Given a tokenizer, returns token ranges for each sentence in the tokenized input text
 
 ## Installation
 
@@ -71,7 +71,7 @@ for sent, (start, end) in zip(sentences, ranges):
 
 ### Note on CoT pre-filling
 
-gpt-oss models don't use `<think>` tags but instead employs a special format:
+gpt-oss models don't use `<think>` tags but instead employ a special format:
 
 ```python
 pre_string = """<|start|>system<|message|>You are ChatGPT, a large language model trained by OpenAI.
