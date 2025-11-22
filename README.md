@@ -1,4 +1,4 @@
-# sentences
+# Sentences
 
 Utilities for sentence-level text segmentation and tokenization tailored to LLM tokenizers.  
 
